@@ -1,12 +1,25 @@
-  h1 {color: #32386C; 
-  font-size: 30px}
+  h1, h2, h3, li, p {text-align:center;}
   
-  h2 {color: #32386C; 
-  background-color: #7A9E9F;}
+  h1 {color: #7B6E62;  
+  font-size: 30px;
+  padding: 50px 10px;
+  background-color: #cab39f;}
   
-  body {background-color: beign}
+  h3 {font: calibri;
+  padding: 10px 400px;
+  background-color: #dda982;
+  color: #805C41;}
   
-  p {font: italic 15px sans-serif; 
-  border: thick double #7A9E9F;
-  color: #32386C; 
-  background-color: powderblue;}
+  li {font-size: 20px;
+  color: #575F49;
+  padding: 12px;
+  background-color:b9cb99;
+  display: inline-block;
+  width: 310px;}
+  
+  body {background-color: beign;}
+  
+  p {font: 15px Helvetica;
+  color: #29282F;
+  padding:25px;
+  background-color: #A09CBE;}
