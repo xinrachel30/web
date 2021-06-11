@@ -1,0 +1,30 @@
+table
+{background-color: DarkBlue;
+  color: GoldenRod;}
+
+h3
+{}
+
+thead
+{color: White;
+}
+
+
+
+ol
+{
+margin: 50px 50px 50px 50px;
+}
+
+p
+{
+margin: 50px 50px 50px 50px;}
+
+th,
+td {
+  width: 100px;
+  text-align: center;
+  border: 5px solid black;}
+
+body
+{background-color: Cornsilk;}
