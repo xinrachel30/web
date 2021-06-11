@@ -1,15 +1,15 @@
 table
 {background-color: DarkBlue;
-  width: 100%;
-  height: 75%;
+  width: 50%;
+  height: 50%;
   color: GoldenRod;}
 
 tbody
-{font-size: 200%}
+{font-size: 50%}
 
 thead
 {color: White;
-font-size: 170%;}
+font-size: 50%;}
 
 
 
@@ -29,7 +29,7 @@ margin: 50px 50px 50px 50px;}
 
 th,
 td {
-  width: 200px;
+  width: 100px;
   text-align: center;
   border: 5px solid black;}
 
