@@ -1,15 +1,13 @@
 table
 {background-color: DarkBlue;
-  width: 50%;
-  height: 50%;
   color: GoldenRod;}
 
 tbody
-{font-size: 50%}
+{}
 
 thead
 {color: White;
-font-size: 50%;}
+}
 
 
 
