@@ -1,0 +1,55 @@
+<html>
+
+  <head>
+	  <title>Jeopardy Parody</title>
+  </head>
+
+  <body style="background-color: lightsteelblue; font-family: sans-serif">
+    <h1>Jeopardy Parody</h1>
+    <h2>Shreya Daggolu and Xinqing Lin, Period 5</h2>
+    <hr>
+
+	<h3>Project Description</h3>
+	<p>This is a parody of the classic Jeopardy game. It is a single-player game where you can test your knowledge of high school and pop culture. </p>	
+      </li>
+      <li>
+	<h3>Instructions</h3>
+	<p>1)Open and run the Python program. 2) Using the board below, type the desired topic and value into the Thonny shell. 3) Repeat until you are finished with the game. Once done, you will be able to see a line graph depicting your progress.</p>
+      </li>
+      <li>
+	<h3>How it works</h3>
+	<p>The questions and answers are all in a txt file, organized by topic and value. The organize function will organize all of the values into a dictionary of dictionaries. This makes it easier to refer to a particular tile. The score function takes the topic, value, and response. It will compare the response to the actual answer using the dictionary of dictionaries, topic, and value. The start_game function uses a while loop to continue the game until all of the questions are answered. It will return a list of the player's scores after every turn. This list will be used to create a line graph so that the player can see their progress throughout the game.</p>
+      </li>
+      <li>
+	<h3>Files</h3>
+	<ul>
+	  <li>final.html: This html file</li>
+	  <li>Trivia.py: This is the game itself. The game can be played when this is run on Thonny.</li>
+	  <li>questions-1.txt: txt file will all of the questions and answers.</li>
+
+	</ul>
+      </li>
+      <li>
+	<h3>Resources</h3>
+	<ul>
+
+	</ul>
+      </li>
+      <li>
+	<h3>Bugs, Errors and Things to be Aware of</h3>
+	<ul>
+	  <li>
+	    The topic, value, and response typed into the Thonny shell has to be the exact spelling and capitalization. If not, the entire game will start over.
+	  </li>
+	  <li>
+	    Technically, you can repeat questions until you reach the 30, the total number of existing questions.
+	  </li>
+	  <li>
+	    The dictionary of dictionaries produced is ordered weirdly. The question and answer corresponding to the value 1000 come before the ones for the value 200. However, this doesn't interfere with gameplay. 
+	  </li>
+	</ul>
+      </li>
+    </ul>
+
+  </body>
+</html>
