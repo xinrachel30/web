@@ -1,12 +1,12 @@
 header
-{background-color: RebeccaPurple;
+{background-color: Thistle;
 color: white}
 
 h3 {
   border-top: 4px dotted RoyalBlue;
-  padding-top: 25px;
+  padding-top: 15px;
 border-bottom: 4px dotted RoyalBlue;
-  padding-bottom: 25px;
+  padding-bottom: 15px;
 }
 
 
