@@ -2,8 +2,11 @@ header
 {background-color: #5c7ea3;
 color: white}
 
-h3
-{text-decoration: overline underline;}
+h3 {
+  border-top: 4px dotted blue;
+   border-spacing: 15px;
+border-bottom: 4px dotted blue;
+}
 
 table
 {background-color: DarkBlue;
