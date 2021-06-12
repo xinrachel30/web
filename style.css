@@ -9,7 +9,8 @@ border-bottom: 4px dotted blue;
 }
 
 table
-{background-color: DarkBlue;
+{margin-top: 10px;
+  background-color: DarkBlue;
   color: GoldenRod;}
 thead
 {color: White;
