@@ -1,11 +1,11 @@
 header
-{background-color: #5c7ea3;
+{background-color: RebeccaPurple;
 color: white}
 
 h3 {
-  border-top: 4px dotted blue;
+  border-top: 4px dotted RoyalBlue;
    border-spacing: 15px;
-border-bottom: 4px dotted blue;
+border-bottom: 4px dotted RoyalBlue;
 }
 
 table
