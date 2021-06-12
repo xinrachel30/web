@@ -1,3 +1,10 @@
+header
+{background-color: #5c7ea3;
+color: white}
+
+h3
+{text-decoration: overline underline;}
+
 table
 {background-color: DarkBlue;
   color: GoldenRod;}
@@ -10,4 +17,5 @@ th
   border: 5px solid black;}
 
 body
-{background-color: Cornsilk;}
+{background-color: Cornsilk;
+font-family: Helvetica, Verdana, sans-serif}
