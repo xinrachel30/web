@@ -4,9 +4,11 @@ color: white}
 
 h3 {
   border-top: 4px dotted RoyalBlue;
-   border-spacing: 30px;
+  padding-top: 50px;
 border-bottom: 4px dotted RoyalBlue;
+  padding-bottom: 50px;
 }
+
 
 table
 {margin-top: 10px;
