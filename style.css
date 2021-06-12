@@ -5,5 +5,11 @@ thead
 {color: White;
 }
 
+th,
+td {
+
+  text-align: center;
+  border: 5px solid black;}
+
 body
 {background-color: Cornsilk;}
