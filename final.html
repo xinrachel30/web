@@ -1,4 +1,4 @@
-<link href="style.css" rel="stylesheet">
+link href="style.css" rel="stylesheet">
 <html>
 
   <head>
@@ -17,15 +17,16 @@
 	</ul>
 <ul>
 	<h3><li> Project Description</li> </h3>
-	<p>In this project, we will create a Jeopardy game. The only difference between the real Jeopardy game and our game is that the questions will be given and the player has to guess the answer in one or two words. We want to create this game because Jeopardy is a fun and competitive game. It is very enjoyable to play and it tests your knowledge about concepts you have learned about in highschool! The topics of the game will include subjects we have learned from highschool and pop culture. 
+	<p>In this project, we created a Jeopardy game. The difference between the real Jeopardy game and our game is that the questions will be given. This means that the players has to guess the answers. We want to create this game because Jeopardy is a fun and competitive game. This version of the game tests your knowledge about concepts you have learned about in highschool! In addition, there are challenging riddles to solve and questions about popculture. This is a great way to test your IQ!
  </p>	
       
 	<h3><li> Instructions</li> </h3>
 	<ol>
 		<li>Open and run the Python program by clicking the small, green button on top. </li>
-		<li>Using the Jeopardy board below, type the desired topic and value into the Thonny shell. Remember to type it exactly how it is seen on the board, with correct capitalization, punctuation, and spelling. </li>
-		<li>Type your response into the Thonny shell. Make sure that the first letter of every word is capitalized. Upon entering, the program will let you know if you were correct or not and your updated score. </li> 
-		<li>Repeat until you are finished with the game. Once done, you will be able to see a line graph depicting your progress. </li> 
+		<li>Once run, "topic:" will be printed in the shell. Using the Jeopardy board below, type the desired topic into the Thonny shell. Remember to type it exactly how it is seen on the board, with correct capitalization, punctuation, and spelling.</li> 
+		<li>Next, "value:" will be printed in the shell. Using the Jeopardy board below, type the value of your choice into the shell. After completing this step, a question will be printed in the shell.</li>
+		<li>When "answer:" is printed in the shell, type your answer. Make sure that the first letter of every word is capitalized. Once inputted, the program will print whether you are correct or wrong, and it will print your updated score. </li> 
+		<li>Repeat steps 2-4 until you have answered 30 questions. This means, you have completed the game. Once done, you will be able to see a line graph depicting your progress. After viewing the graph, "Game Over" will be printed in the shell. If you would like to restart the game, run the program again (see step 1).</li> 
 	      </ol>
 	<table>
   <thead>
@@ -83,12 +84,13 @@
  </table>
       
 	<h3><li> How it works</li></h3> 
-	<p>All of the questions and answers are contained in the questions-1.txt file. The organize function organizes this information into a dictionary of dictionaries that will help make it easier to identify individual tiles. The board containing the tiles available can be viewed on this website under 'Instructions'. When the program is run, the player can enter the topic and value according to the desired tile. The program will print the question. The player can respond in one to three words, all of which should have the first letter capitalized. If the player's response is correct, a success message will be printed and the player's score will increase by the tile's value. If the response is incorrect, the failure message will be printed and the player's score will be deducted by the tile's value. This is managed by the score function. The game will end after 30 turns and a line graph will be produced to show the player's progress over time. </p>     
+	<p>All of the topics, values, questions, and answers are contained in the questions-1.txt file. Once running the Jeopardy Parody.py file, it will read the questions-1.txt file. Then, it would use an organize function which organizes the information from the questions-1.txt file into a dictionary of dictionaries. This will help make it easier to identify individual tiles. The board containing the tiles can be viewed on this website under "Instructions." When the program is run, the player can enter the topic and value according to their chosen tile. The program will print the question and the player can answer it. Then, the updated score will be printed. This is controlled by the start_game function. If the player's response is correct, a success message will be printed and the player's score will increase by the tile's value. If the response is incorrect, the failure message will be printed and the player's score will be deducted by the tile's value. This is managed by the score function. As this occurs, each updated score is recorded and added to a growing list. Once the game ends after 30 turns, a line graph will be produced, which is based on the list of scores and this will show the player's progress over time. </p>     
 	<h3><li> Files </li> </h3>
 	<ul>
 	  <li>final.html: This html file</li>
 	  <li>Jeopardy Parody.py: This is the game itself and it can be run on Thonny. It is a python file where questions can be printed and answers can be submitted through the shell. </li>
 	  <li>questions-1.txt: Plain text file will containing all of the questions and answers. </li>
+	<li> style.css: Stylesheet used for styling and decorating final.html.
 	</ul>
       
 	<h3><li> Resources</li></h3> 
@@ -102,10 +104,10 @@
 	<h3><li> Bugs, Errors and Things to be Aware of</li> </h3>
 	<ul>
 	  <li>
-	    The topic, value, and response typed into the Thonny shell have to have the exact spelling, spacing, and capitalization as the ones in the questions-1.txt. For all answers, the first letter of each word must be capitalized. If the answer is a number value, write it in number form, do not write it in word form. If either the topic or value is mispelled, the entire game will start over.
+	    The topic, value, and response typed into the Thonny shell have to have the exact spelling, spacing, punctuation, and capitalization as the ones in the questions-1.txt. For all answers, the first letter of each word must be capitalized. If the answer is a number value, write it in number form, do not write it in word form. If either the topic or value is mispelled, the entire game will start over.
 	  </li>
 	  <li>
-	    Technically, you can repeat questions until you reach 30, the total number of existing questions.
+	    Technically, you can repeat questions until you reach 30, which is the total number of existing questions.
 	  </li>
 	<li>
 	    Only one round of Jeopardy can be played.
