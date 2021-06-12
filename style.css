@@ -6,7 +6,9 @@ thead
 }
 
 th,
-td {text-align: center;
+td {
+  
+  text-align: center;
   border: 5px solid black;}
 
 body
